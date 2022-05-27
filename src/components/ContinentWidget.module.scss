@@ -1,0 +1,38 @@
+.continentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+  background: #f5498b;
+}
+
+.continentWrapper:nth-child(3n+0),
+.continentWrapper:nth-child(2) {
+  background: #d7447d;
+}
+
+.continentImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 600px) {
+ 
+}
+
+.continentInfo {
+  font-size: 20px;
+}
+
+.heroTitle,
+.heroStats {
+  margin: 0;
+}
+
+.arrowRight {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 2vw;
+  color: #fff;
+}

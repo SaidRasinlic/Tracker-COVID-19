@@ -1,0 +1,51 @@
+.widgetWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.worldImg {
+  width: 50vw;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 600px) {
+  .worldImg {
+    display: flex;
+    width: 500px;
+    height: auto;
+  }
+
+  .heroTitle,
+  .heroStats {
+  font-size: 35px !important;
+}
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  background: #f5498b;
+}
+
+.widgetInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  color: #fff;
+  background: #f5498b;
+}
+
+.heroTitle {
+  font-size: 25px;
+}
+
+.heroStats {
+  font-size: 20px;
+}
+
+.heroTitle,
+.heroStats {
+  margin: 0;
+}
