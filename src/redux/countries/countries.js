@@ -7,14 +7,14 @@ const URL = 'https://corona.lmao.ninja/v3/covid-19/countries';
 const initialState = {
   status: 'LOADING',
   countries: [],
-  err: null,
+  error: null,
 };
 
 // Action Types
 
-const FETCH_COUNTRIES = 'tracker-covid-19/continents/FETCH_COUNTRIES';
-const FETCH_COUNTRIES_ERROR = 'tracker-covid-19/continents/FETCH_COUNTRIES_ERROR';
-const FETCH_COUNTRIES_LOADING = 'tracker-covid-19/continents/FETCH_COUNTRIES_LOADING';
+const FETCH_COUNTRIES = 'tracker-covid-19/countries/FETCH_COUNTRIES';
+const FETCH_COUNTRIES_ERROR = 'tracker-covid-19/countries/FETCH_COUNTRIES_ERROR';
+const FETCH_COUNTRIES_LOADING = 'tracker-covid-19/countries/FETCH_COUNTRIES_LOADING';
 
 // Redux Actions
 

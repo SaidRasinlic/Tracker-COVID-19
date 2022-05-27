@@ -1,11 +1,11 @@
 // Base URL
-const URL = 'https://corona.lmao.ninja/v3/covid-19/continents';
+const URL = 'https://corona.lmao.ninja/v3/covid-19/continentsReducer';
 
 // Default State
 const initialState = {
   continents: [],
   status: 'LOADING',
-  err: null,
+  error: null,
 };
 
 // Action Types
