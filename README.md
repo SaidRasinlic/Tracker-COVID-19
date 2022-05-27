@@ -1,30 +1,16 @@
 # Tracker-COVID-19
-Project Description
+This React capstone project is about building a Mobile Web Application to check a list of metrics (numeric values) that I will create making use of React and Redux. Thanks to the COVID-19 metrics I was able to fetch data by using Fetch API, which helped me to get the all the stats per country needed for the project.
 
-![Project Image](./src/assets/images/Tracker-COVID-19.png)
+## Screenshots
+### Mobile
+
+<img align="center" src="./src/assets/images/Covid-19-Mobile.png" alt="IPhone 13 Version" width="340px" /> <img align="right" src="./src/assets/images/Covid-19-II-Mobile.png" alt="IPhone 13 Version" width="340px" />
+
+### Desktop
+![Desktop Snapshot](./src/assets/images/Covid-19-Desktop.png)
 
 
 ## Built With
-
-- HTML
-- CSS
-- JavaSript/ES6
-- React
-- Linters
-- NPM
-- Webpack
-- Babel
-
-
-## Live Demo
-
-[Netlify Live Demo Link](https://saidrasynl-tracker-covid-19.netlify.app/)
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 - JavaScript (ES6)
 - React
@@ -40,9 +26,24 @@ To get a local copy up and running follow these simple example steps.
 - Sass
 - NPM (Software Packages System)
 
+## Live Demo
+
+[Netlify Live Demo Link](https://saidrasynl-tracker-covid-19.netlify.app/)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Laptop or Desktop
+- Web Browser
+- IDE
+- Programming Knowledge
+
 ### Setup
 
-- Clone GitHub repository `gh repo clone SaidRasinlic/Bookstore-react`
+- Clone GitHub repository `gh repo clone SaidRasinlic/Tracker-COVID-19`
 - Install the devDependencies `npm install`
 - Build the app `npm run build`
 - Run the app `npm run start`
