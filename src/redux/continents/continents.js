@@ -1,5 +1,5 @@
 // Base URL
-const URL = 'https://corona.lmao.ninja/v3/covid-19/continentsReducer';
+const URL = 'https://corona.lmao.ninja/v3/covid-19/continents';
 
 // Default State
 const initialState = {
