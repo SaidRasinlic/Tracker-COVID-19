@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import store from '../redux/configureStore';
-import Homepage from '../pages/Homepage';
+import Homepage from '../pages/HomePage';
 import ContinentPage from '../pages/ContinentsPage';
 import CountryPage from '../pages/CountriesPage';
 
