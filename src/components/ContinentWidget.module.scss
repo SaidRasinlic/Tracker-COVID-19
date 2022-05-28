@@ -19,10 +19,14 @@
 
 .continentInfo {
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
 }
 
 .heroTitle,
 .heroStats {
+  width: min-content;
   margin: 0;
 }
 

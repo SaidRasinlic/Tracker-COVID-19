@@ -29,6 +29,11 @@
   font-size: 22px;
 }
 
+.row h2,
+.row h5 {
+  margin: 0 10px;
+}
+
 .row:nth-child(odd) {
   background: #d7447d;
 }
@@ -60,8 +65,9 @@
   }
 
   .flagImg {
-    min-height: 180px;
-    max-width: 300px;
+    min-height: 150px;
+    max-width: 200px;
+    border-radius: 10px;
   }
 }
 
@@ -70,6 +76,7 @@
 }
 
 .flagImg {
-  width: 40vw;
-  height: 125px;
+  width: 30vw;
+  height: 100px;
+  border-radius: 10px;
 }
