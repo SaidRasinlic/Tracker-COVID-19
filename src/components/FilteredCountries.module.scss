@@ -1,0 +1,52 @@
+.countriesWrapper {
+  display: flex;
+  flex-direction: column;
+  background: #fa4e90;
+  color: #fff;
+}
+
+.countryInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.countryInfo:nth-child(odd) {
+  background: #d7447d;
+}
+
+.heroTitle {
+  font-size: 25px;
+  margin-right: auto;
+  width: 200px;
+}
+
+.heroStats {
+  font-size: 22px;
+  word-spacing: 5px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.searchCover {
+  display: flex;
+  justify-content: center;
+  background: #f978ab9c;
+}
+
+.searchName {
+  height: 30px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+}
+
+::placeholder {
+  color: black;
+}
