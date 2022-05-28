@@ -2,7 +2,7 @@
 This React capstone project is about building a Mobile Web Application to check a list of metrics (numeric values) that I will create making use of React and Redux. Thanks to the COVID-19 metrics I was able to fetch data by using Fetch API, which helped me to get the all the stats per country needed for the project.
 
 ## Presentation
-https://www.loom.com/share/0b80ccc0813e47be8dd9f0f934e6f381
+https://loom.com/share/00700e91ac684127b261b7a77d3673f9
 
 
 ## Screenshots
